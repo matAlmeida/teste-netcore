@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/matalmeida/Documents/trabalhos/SuperMarket/SuperMarket.csproj": {}
+  },
+  "projects": {
+    "/home/matalmeida/Documents/trabalhos/SuperMarket/SuperMarket.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matalmeida/Documents/trabalhos/SuperMarket/SuperMarket.csproj",
+        "projectName": "SuperMarket",
+        "projectPath": "/home/matalmeida/Documents/trabalhos/SuperMarket/SuperMarket.csproj",
+        "packagesPath": "/home/matalmeida/.nuget/packages/",
+        "outputPath": "/home/matalmeida/Documents/trabalhos/SuperMarket/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/home/matalmeida/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/matalmeida/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
